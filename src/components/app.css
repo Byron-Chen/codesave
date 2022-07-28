@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body{
+    background-color: #2E3440;
+}
+
+body, button, input, form, textarea {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#sidebar {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+#deletebutton {
+    float:right;
+}
+
+
+input {
+    background-color: #2E3440;
+    color: #ededed;
+}
+
+.codetextinput{
+    width: 70%;
+    height: 300px;
+    padding: 8px 10px;
+    color: #ededed;
+    box-sizing: border-box;
+    background-color: #2E3440;
+    resize: none;
+}
+
+button {
+    padding: 1px 10px;
+    font-size: 1em;
+    color: #D3DAE8;
+    background-color: #2E3440;
+    border:none;
+}
+
+button:hover {
+    color: black;
+    background-color: #A8A8A8;
+}
+
+*:focus {
+    outline: none;
+}
+
+::placeholder{
+    color:#9E9E9E;
+}
